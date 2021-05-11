@@ -1107,6 +1107,11 @@ a {
 .cid-suVMdq6MhE .item-img {
   width: 100%;
 }
+.cid-suVMdq6MhE .fund-title {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
 .cid-suVMdq6MhE .item:focus,
 .cid-suVMdq6MhE span:focus {
   outline: none;
