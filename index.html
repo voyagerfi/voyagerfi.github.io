@@ -22,6 +22,9 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.css">
+  <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.theme.css">
+  <link rel="stylesheet" href="assets/datepicker/jquery.datetimepicker.min.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link href="assets/fonts/style.css" rel="stylesheet">
@@ -49,8 +52,8 @@
         <div class="container">
             <div class="navbar-brand">
                 <span class="navbar-logo">
-                    <a href="#">
-                        <img src="assets/images/logo-text-for-dark-background.png" alt="" style="height: 3rem;">
+                    <a href="index.html">
+                        <img src="assets/images/logo-text-for-dark-background.png" alt="Voyager.Fi" style="height: 3rem;">
                     </a>
                 </span>
                 
@@ -64,14 +67,10 @@
                 </div>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item dropdown"><a class="nav-link link dropdown-toggle text-white display-4" href="#" data-toggle="dropdown-submenu" aria-expanded="false">
-                            Funds</a><div class="dropdown-menu"><a class="dropdown-item text-white display-4" href="fund-1.html#top" aria-expanded="false">Crypto Large Cap TrendMax</a><a class="dropdown-item text-white display-4" href="fund-1.html#top" aria-expanded="false">DeFi Large Cap Momentum</a></div></li>
-                    <li class="nav-item"><a class="nav-link link text-white display-4" href="#">
-                            How To Invest</a></li>
-                    <li class="nav-item"><a class="nav-link link text-white display-4" href="#">Learn</a>
-                    </li><li class="nav-item"><a class="nav-link link text-white display-4" href="#">About</a></li></ul>
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item dropdown"><a class="nav-link link dropdown-toggle text-white display-4" href="#" data-toggle="dropdown-submenu" aria-expanded="false">
+                            Funds</a><div class="dropdown-menu"><a class="dropdown-item text-white text-primary display-4" href="large-crypto-trendmax.html" aria-expanded="false">Crypto Large Cap TrendMax</a><a class="dropdown-item text-white text-primary display-4" href="defi-largecap-momentum.html" aria-expanded="false">DeFi Large Cap Momentum</a></div></li><li class="nav-item"><a class="nav-link link text-white display-4" href="#" aria-expanded="true">How to Invest<br><br></a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="#" aria-expanded="true">About</a></li></ul>
                 
-                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="#">Open App</a></div>
+                
             </div>
         </div>
     </nav>
@@ -88,8 +87,8 @@
             <div class="col-12 col-lg-9">
                 <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1"><strong>The New FRonTieR of decentRAlised Asset PoRtfolios&nbsp;</strong></h1>
                 
-                <p class="mbr-text mbr-white mbr-fonts-style display-7"><br>Providing investors easy access to the projects developing the blockchain infrastructure of the financial world of tomorrow, through all-in-one diversified/quantitative portfolios.<br><br></p>
-                <div class="mbr-section-btn mt-3"><a class="btn btn-success display-4" href="#">&nbsp; &nbsp; View Our Funds&nbsp; &nbsp;&nbsp;</a></div>
+                <p class="mbr-text mbr-white mbr-fonts-style display-7"><br>Providing investors easy access to the projects developing the blockchain infrastructure of the financial world of tomorrow.<br><br>All-in-one diversified &amp; quantitative portfolios.<br><br></p>
+                <div class="mbr-section-btn mt-3"><a class="btn btn-success display-4" href="index.html#gallery3-8">&nbsp; &nbsp; View Our Funds&nbsp; &nbsp;&nbsp;</a></div>
             </div>
         </div>
     </div>
@@ -115,7 +114,7 @@
                         <div class="iconfont-wrapper">
                             <span class="mbr-iconfont mbri-lock" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
                         </div>
-                        <h5 class="card-title mbr-fonts-style display-7"><strong>Ultra Secure</strong></h5>
+                        <h5 class="card-title mbr-fonts-style display-7"><strong>Self Custody</strong></h5>
                         <p class="card-text mbr-fonts-style display-7">Investors maintain complete ownership over their assets at all times, ensuring unmatched security.<br>We never take ownership of your funds, they are only transformed.</p>
                     </div>
                 </div>
@@ -149,7 +148,7 @@
                             <span class="mbr-iconfont mbri-growing-chart" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
                         </div>
                         <h5 class="card-title mbr-fonts-style display-7"><strong>Engineering For Growth</strong></h5>
-                        <p class="card-text mbr-fonts-style display-7">All our funds have been battle tested through a robust backtesting process. By utilising an ensemble of growth signals we are able to hear the true trend of assets through the noise.</p>
+                        <p class="card-text mbr-fonts-style display-7">All our funds have been battle-tested through a robust backtesting process. By utilising an ensemble of growth signals we are able to hear the true trend of assets through the noise.</p>
                     </div>
                 </div>
             </div>
@@ -236,7 +235,7 @@
                 <div class="card-wrapper">
                     <div class="card-box align-center">
                         <span class="mbr-iconfont mbri-cash"></span>
-                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">Exchange your old world money for USD backed crypto money, Or <br>Connect your crypto wallet to our app</h4>
+                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">Exchange your old world money for USD backed crypto money like USDC or sUSD depending on which fund you invest in</h4>
                     </div>
                 </div>
             </div>
@@ -277,125 +276,88 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-10">
-                <div class="mbr-section-btn align-center"><a class="btn btn-primary display-4" href="">Start Investing Now</a>
-                    <a class="btn btn-primary-outline display-4" href="">Learn More</a></div>
+                <div class="mbr-section-btn align-center"><a class="btn btn-primary display-4" href="how-to.html">Start Investing Now</a></div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="content13 cid-suVMOYOJYF" id="content13-a">
+<section class="form5 cid-sxaDUIa6L9" id="form5-t">
     
     
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-10">
-                <h3 class="mbr-section-title mbr-fonts-style mb-4 display-5">
-                    <strong>Frequently asked questions</strong>
-                </h3>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-10">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-lg-6">
-                        <ul class="list mbr-fonts-style display-7">
-                            <li><strong>How to create more items in this list?</strong><br>Press <strong>Enter </strong>to create a new
-                                bullet. To
-                                create an answer for a question, press <strong>Shift+Enter</strong>.</li>
-                            <li><strong>Can I create sites for commerical projects?</strong><br>Yes, Mobirise is free for both
-                                non-profit
-                                and commercial sites.</li>
-                            <li><strong>How to install more extensions?</strong><br>Open the main menu in the app and find the
-                                Extensions
-                                tab. Click on it to open the Extensions list.</li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-lg-6">
-                        <ul class="list mbr-fonts-style display-7">
-                            <li><strong>What is Mobirise Kit?
-                                </strong><br>Mobirise Kit is a service that provides the access to all current and new
-                                themes/extensions developed by Mobirise.&nbsp;</li>
-                            <li><strong>What is Code Editor?<br></strong>This extension allows editing the code of block in the
-                                app. Also,
-                                it's possible to add code to the head and body parts of pages.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="content4 cid-suVNlA0mi6" id="content4-b">
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-10">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2">
-                    <strong>Article Title with Solid Background</strong>
-                </h3>
-                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-5">
-                    You can arrange your articles with the Mobirise website design software.
-                </h4>
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="features1 cid-suVOTyN67b" id="features1-e">
-    
-
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-9">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                    <strong>Features</strong>
-                </h3>
-                
-            </div>
-        </div>
-        <div class="row">
-            <div class="card col-12 col-md-6 col-lg-3">
-                <div class="card-wrapper">
-                    <div class="card-box align-center">
-                        <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-code mobi-mbri"></span>
-                        </div>
-                        <h5 class="card-title mbr-fonts-style display-7"><strong>No Coding</strong></h5>
-                        <p class="card-text mbr-fonts-style display-7">You don't have to code to create your own site. Select one of
-                            available themes in the Mobirise sitebuilder.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card col-12 col-md-6 col-lg-3">
-                <div class="card-wrapper">
-                    <div class="card-box align-center">
-                        <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-responsive-2 mobi-mbri"></span>
-                        </div>
-                        <h5 class="card-title mbr-fonts-style display-7"><strong>Mobile Friendly</strong></h5>
-                        <p class="card-text mbr-fonts-style display-7">All sites you create with the Mobirise web builder are
-                            mobile-friendly natively. No special actions required.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card col-12 col-md-6 col-lg-3">
-                <div class="card-wrapper">
-                    <div class="card-box align-center">
-                        <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-website-theme-2 mobi-mbri"></span>
-                        </div>
-                        <h5 class="card-title mbr-fonts-style display-7"><strong>Unique Styles</strong></h5>
-                        <p class="card-text mbr-fonts-style display-7">Select the theme that suits you. Each theme in the Mobirise
-                            site builder contains a set of unique blocks.</p>
-                    </div>
-                </div>
-            </div>
+        <div class="mbr-section-head">
+            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                <strong>Got questions?</strong></h3>
             
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
+                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="YyB5T7jU3mYLcHooTbuquZdJbezb/6Ub70cBPsKOa90f8R+r9rointT5PJBmTOGFr2SC/1IvJ/xl8gTCmukxNl/7RLW0KC7any65+q99gpR+B9tEoE9hLTJHl7Ifqj2d.VUiZcJf1p+vkZZTY5vV2zRweU2IvFkQ3f0bBuVaaMoDI60UI8IY7gGm9oxE8BTJS/c25krvL/AZi1I+nBKMwCD4jD+aV18PZ9nuHlOraT8x9fobRMJL6ZsPmGbBAVy69">
+                    <div class="row">
+                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Success! We will reply you shortly. Thank you.</div>
+                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some
+                            problem!</div>
+                    </div>
+                    <div class="dragArea row">
+                        <div class="col-md col-sm-12 form-group" data-for="name">
+                            <input type="text" name="name" placeholder="Your Name" data-form-field="name" class="form-control" value="" id="name-form5-t">
+                        </div>
+                        <div class="col-md col-sm-12 form-group" data-for="email">
+                            <input type="email" name="email" placeholder="E-mail" data-form-field="email" class="form-control" value="" id="email-form5-t">
+                        </div>
+                        
+                        <div class="col-12 form-group" data-for="textarea">
+                            <textarea name="textarea" placeholder="Message" data-form-field="textarea" class="form-control" id="textarea-form5-t"></textarea>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn"><button type="submit" class="btn btn-primary display-4">Send Message</button></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer3 cid-sxaBjhHhBz" once="footers" id="footer3-r">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row align-center mbr-white">
+            <div class="row row-links">
+                <ul class="foot-menu">
+                    
+                    
+                    
+                    
+                    
+                <li class="foot-menu-item mbr-fonts-style display-7"><a href="index.html#gallery3-8" class="text-primary">Funds</a></li><li class="foot-menu-item mbr-fonts-style display-7"><a href="how-to.html" class="text-primary">How to Invest</a></li></ul>
+            </div>
+            <div class="row social-row">
+                <div class="social-list align-right pb-2">
+                    
+                    
+                    
+                    
+                    
+                    
+                <div class="soc-item">
+                        <a href="https://twitter.com/voyagerfi" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-twitter socicon" style="color: rgb(71, 181, 237); fill: rgb(71, 181, 237);"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="mailto:hello@voyager.fi">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-mail socicon" style="color: rgb(255, 225, 97); fill: rgb(255, 225, 97);"></span>
+                        </a>
+                    </div></div>
+            </div>
+            <div class="row row-copirayt">
+                <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
+                    © Copyright 2021 <a href="https://www.controlaltdevelop.com" class="text-primary" target="_blank">Control Alt Develop Pty Ltd</a>. All Rights Reserved.
+                </p>
+            </div>
         </div>
     </div>
 </section>
@@ -410,7 +372,11 @@
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
   <script src="assets/parallax/jarallax.min.js"></script>
+  <script src="assets/formstyler/jquery.formstyler.js"></script>
+  <script src="assets/formstyler/jquery.formstyler.min.js"></script>
+  <script src="assets/datepicker/jquery.datetimepicker.full.js"></script>
   <script src="assets/theme/js/script.js"></script>
+  <script src="assets/formoid/formoid.min.js"></script>
   
   
   
