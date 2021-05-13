@@ -710,9 +710,6 @@ a {
 .cid-suVM3XoUOE .navbar-dropdown {
   position: relative !important;
 }
-.cid-suVM3XoUOE .navbar-dropdown {
-  position: absolute !important;
-}
 .cid-suVM3XoUOE .dropdown-item:before {
   font-family: Moririse2 !important;
   content: "\e966";
@@ -808,8 +805,8 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  position: absolute;
-  background: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  background: #000000;
 }
 .cid-suVM3XoUOE .navbar.opened {
   transition: all 0.3s;
@@ -1309,9 +1306,6 @@ a {
 .cid-suVM3XoUOE .navbar-dropdown {
   position: relative !important;
 }
-.cid-suVM3XoUOE .navbar-dropdown {
-  position: absolute !important;
-}
 .cid-suVM3XoUOE .dropdown-item:before {
   font-family: Moririse2 !important;
   content: "\e966";
@@ -1407,8 +1401,8 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  position: absolute;
-  background: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  background: #000000;
 }
 .cid-suVM3XoUOE .navbar.opened {
   transition: all 0.3s;
@@ -2114,6 +2108,10 @@ a {
   position: absolute;
   left: -1.6rem;
   content: "–";
+}
+.cid-sxfpBbATed .token-icon {
+  width: 64px;
+  height: 64px;
 }
 .cid-sxfpBbATed .mbr-section-tag {
   color: #9e9e9e;
