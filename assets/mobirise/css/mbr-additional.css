@@ -1197,6 +1197,75 @@ a {
   padding-bottom: 5rem;
   background-color: #ffffff;
 }
+.cid-sxtXJ7JPgJ {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #bed3f9;
+}
+.cid-sxtXJ7JPgJ img {
+  width: 90%;
+  border-radius: 10px;
+}
+@media (max-width: 992px) {
+  .cid-sxtXJ7JPgJ img {
+    width: 100%;
+  }
+}
+.cid-sxtXJ7JPgJ .btn span {
+  order: 0;
+  margin-right: 0.6rem;
+  margin-left: 0;
+}
+.cid-sxtXJ7JPgJ .appstore {
+  width: 200px;
+  opacity: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+}
+.cid-sxtXJ7JPgJ .counter-container ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 2.4rem;
+}
+.cid-sxtXJ7JPgJ .counter-container ul li {
+  margin-bottom: 2rem;
+  list-style: none;
+  position: relative;
+  padding-left: 1rem;
+}
+.cid-sxtXJ7JPgJ .counter-container ul li:before {
+  position: absolute;
+  top: -5px;
+  left: -40px;
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  background-color: #fafafa;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  content: "✓";
+}
+.cid-sxtXJ7JPgJ .mbr-text,
+.cid-sxtXJ7JPgJ .mbr-section-btn {
+  color: #353535;
+}
+.cid-sxtXJ7JPgJ .mbr-section-subtitle {
+  color: #bd34ca;
+}
+.cid-sxtXJ7JPgJ .mbr-list {
+  color: #353535;
+}
+@media (max-width: 767px) {
+  .cid-sxtXJ7JPgJ .mbr-list {
+    justify-content: center;
+    display: flex;
+  }
+}
 .cid-sxaDUIa6L9 {
   padding-top: 6rem;
   padding-bottom: 6rem;
