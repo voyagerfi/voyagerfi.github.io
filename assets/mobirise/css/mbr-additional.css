@@ -1443,6 +1443,9 @@ a {
   font-size: 60px;
   color: #777;
 }
+#custom-html-12 .performance-graph-container {
+  background-color: white;
+}
 #custom-html-12 .performance-graph {
   margin-left: 70px;
   margin-right: 70px;
@@ -2289,6 +2292,9 @@ a {
 #custom-html-1c .performance-graph {
   margin-left: 70px;
   margin-right: 70px;
+}
+#custom-html-1c .performance-graph-container {
+  background-color: white;
 }
 .cid-sxtFplkBV8 {
   padding-top: 0rem;
