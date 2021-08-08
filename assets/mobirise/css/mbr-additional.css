@@ -2296,11 +2296,6 @@ a {
 #custom-html-1c .performance-graph-container {
   background-color: white;
 }
-.cid-sxtFplkBV8 {
-  padding-top: 0rem;
-  padding-bottom: 1rem;
-  background-color: #ffffff;
-}
 .cid-sxzfyWZyZs {
   padding-top: 0rem;
   padding-bottom: 5rem;
@@ -2552,11 +2547,6 @@ a {
 .cid-sxgqyJmYOz .mbr-section-btn a {
   margin-top: 0;
 }
-.cid-sxgqyI5ZvK {
-  padding-top: 0rem;
-  padding-bottom: 1rem;
-  background-color: #ffffff;
-}
 .cid-sxmwMZPPTT {
   padding-top: 5rem;
   padding-bottom: 1rem;
@@ -2599,81 +2589,13 @@ a {
   border-radius: 4px;
   background-color: #fafafa;
 }
-.cid-sxmpptuCeW {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.cid-sFtarusi23 {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
   background-color: #ffffff;
 }
-.cid-sxmpptuCeW .item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 2rem;
-}
-.cid-sxmpptuCeW .item:last-child .icon-box:before {
-  display: none;
-}
-.cid-sxmpptuCeW .item.last .icon-box:before {
-  display: none;
-}
-.cid-sxmpptuCeW .icon-box {
-  background: #6592e6;
-  width: 60px;
-  min-width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  margin-right: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-@media (max-width: 768px) {
-  .cid-sxmpptuCeW .icon-box {
-    margin-right: 1rem;
-  }
-}
-.cid-sxmpptuCeW .icon-box::before {
-  content: "\e925";
-  font-family: Moririse2 !important;
-  position: absolute;
-  font-size: 32px;
-  left: 50%;
-  top: 120%;
-  color: #6592e6;
-  transform: translate(-50%, 0);
-}
-.cid-sxmpptuCeW span {
-  font-size: 2rem;
-  color: #ffffff;
-}
-@media (max-width: 991px) {
-  .cid-sxmpptuCeW .card {
-    margin-bottom: 2rem;
-  }
-  .cid-sxmpptuCeW .card-wrapper {
-    margin-bottom: 2rem;
-  }
-  .cid-sxmpptuCeW .icon-box::before {
-    top: 141%;
-  }
-}
-@media (max-width: 768px) {
-  .cid-sxmpptuCeW .icon-box::before {
-    top: 114%;
-  }
-}
-.cid-sxmpqrulTz {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-  background-color: #ffffff;
-}
-.cid-sxmpqrulTz .mbr-text {
-  text-align: center;
-}
-.cid-sxmpqWVctm {
-  padding-top: 0rem;
-  padding-bottom: 3rem;
-  background-color: #ffffff;
+.cid-sFtarusi23 .mbr-section-title {
+  color: #c823df;
 }
 .cid-sxgqyKbjsb {
   padding-top: 5rem;
